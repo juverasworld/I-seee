@@ -63,4 +63,8 @@ button {
 
 .state{
   background: url('../public/images/bg\ \(1\).png');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
 }

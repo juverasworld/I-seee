@@ -4,7 +4,7 @@ import microphone from "../public/images/microphone.png";
 import apple from "../public/images/apple.png";
 import google from "../public/images/google.png";
 import line from "../public/images/line.png";
-
+import Link from "next/link";
 const Form = () => {
   return (
     <div className="flex items-center justify-center h-screen ">
@@ -71,7 +71,9 @@ const Form = () => {
             <Image width={50} height={50} src={google} alt="" />
           </p>
         </div>
-        <div><p>Don't have an account? <span className="text-[#138808] font-bold text-[16px]">Sign Up</span> </p></div>
+        <div><p>Don't have an account? <span className="text-[#138808] font-bold text-[16px]">
+          <Link href="/sign-up"> Sign Up</Link>
+         </span> </p></div>
       </div>
     </div>
   );

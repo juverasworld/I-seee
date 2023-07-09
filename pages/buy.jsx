@@ -4,7 +4,7 @@ import microphone from "../public/images/microphone.png";
 import apple from "../public/images/apple.png";
 import arrows from "../public/images/arrows.png";
 import arrow2 from "../public/images/arrow2.png";
-
+import Link from "next/link"
 
 import pople from "../public/images/pople.png";
 
@@ -22,9 +22,13 @@ const Form = () => {
           </p> 
           <div className="flex justify-between my-10">
 
-<p className="text-[#138808] font-bold"> Skip</p>
+<p className="text-[#138808] font-bold">
+  <Link href="/">
+   Skip </Link></p>
 <p>
+  <Link href="/pay">
   <Image src={arrow2} width={30} height={20}/>
+  </Link>
 </p>
 </div>
       </div>

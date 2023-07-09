@@ -8,8 +8,9 @@ import avatar from "../public/images/avatar.png"
 
 const Form = () => {
   return (
-    <div className="flex items-center justify-center  ">
-      <div className="bg-white shadow-md rounded pt-6 pb-8 mb-4 md:px-12 px-5 mx-5 sm:w-1/2 md:w-1/3">
+    <div className="flex  justify-center  ">
+      <div className=" shadow-md rounded pt-6   md:px-12 px-5  sm:w-1/2 md:w-1/3">
+      <div className="mx-5 bg-white items-center" >
         <div className="mb-4">
           <h2 className=" font-bold mb-4">Profile</h2>
           <p className=" justify-center text-center mx-24 my-4">
@@ -122,7 +123,8 @@ const Form = () => {
             />
           </div>
         </div>
-        <div className="state">
+        </div>
+        <div className="bg-[#138808] mx-0 py-3 rounded-t-lg w-full text-center">
         hellow qrfnnfnfnfnffffff
         </div>
       </div>
